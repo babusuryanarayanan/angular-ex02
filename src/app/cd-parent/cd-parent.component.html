@@ -1,0 +1,7 @@
+<app-cd-child [users] = "users"> </app-cd-child>
+
+<div>
+Name : <input type="text" #name/> 
+Age : <input type= "number" #age/>
+<button (click)="onClick(name.value, age.value)"> Add More Users </button>
+</div>

@@ -10,6 +10,7 @@ import { Subscription } from 'rxjs';
 export class AppComponent {
   title = 'angular-ex02';
   l_flag = true;
+  
   messages: any[] = [];
     subscription: Subscription;
   constructor(private commonService:CommonService) { 
